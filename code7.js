@@ -47,7 +47,7 @@ gdjs.Cena_9507Code.GDCursorObjects2= [];
 gdjs.Cena_9507Code.GDCursorObjects3= [];
 
 
-gdjs.Cena_9507Code.asyncCallback10596772 = function (runtimeScene, asyncObjectsList) {
+gdjs.Cena_9507Code.asyncCallback12923892 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("btn_errado_01"), gdjs.Cena_9507Code.GDbtn_9595errado_959501Objects2);
 
@@ -66,14 +66,14 @@ gdjs.Cena_9507Code.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 for (const obj of gdjs.Cena_9507Code.GDbtn_9595errado_959501Objects1) asyncObjectsList.addObject("btn_errado_01", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback10596772(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback12923892(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9507Code.asyncCallback15010108 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9507Code.asyncCallback12927652 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("btn_errado_02"), gdjs.Cena_9507Code.GDbtn_9595errado_959502Objects2);
 
@@ -92,14 +92,14 @@ gdjs.Cena_9507Code.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 for (const obj of gdjs.Cena_9507Code.GDbtn_9595errado_959502Objects1) asyncObjectsList.addObject("btn_errado_02", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback15010108(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback12927652(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9507Code.asyncCallback8888188 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9507Code.asyncCallback12932244 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Animation_pedestre"), gdjs.Cena_9507Code.GDAnimation_9595pedestreObjects3);
 
@@ -166,14 +166,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Cena_9507Code.localVariable
 /* Don't save btn_errado_01 as it will be provided by the parent asyncObjectsList. */
 /* Don't save btn_errado_02 as it will be provided by the parent asyncObjectsList. */
 /* Don't save canvas as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback8888188(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback12932244(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Cena_9507Code.asyncCallback13479492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Cena_9507Code.asyncCallback12931796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Cena_9507Code.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets\\sucess.mp3", false, 100, 1);
 }
@@ -198,7 +198,7 @@ for (const obj of gdjs.Cena_9507Code.GDbtn_9595certoObjects1) asyncObjectsList.a
 for (const obj of gdjs.Cena_9507Code.GDbtn_9595errado_959501Objects1) asyncObjectsList.addObject("btn_errado_01", obj);
 for (const obj of gdjs.Cena_9507Code.GDbtn_9595errado_959502Objects1) asyncObjectsList.addObject("btn_errado_02", obj);
 for (const obj of gdjs.Cena_9507Code.GDcanvasObjects1) asyncObjectsList.addObject("canvas", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback13479492(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Cena_9507Code.asyncCallback12931796(runtimeScene, asyncObjectsList)));
 }
 }
 

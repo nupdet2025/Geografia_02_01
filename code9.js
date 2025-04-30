@@ -26,7 +26,7 @@ gdjs.FinalCode.GDCursorObjects1= [];
 gdjs.FinalCode.GDCursorObjects2= [];
 
 
-gdjs.FinalCode.asyncCallback13529228 = function (runtimeScene, asyncObjectsList) {
+gdjs.FinalCode.asyncCallback13057436 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FinalCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Intro", false);
 }gdjs.FinalCode.localVariables.length = 0;
@@ -40,7 +40,7 @@ gdjs.FinalCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FinalCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.FinalCode.asyncCallback13529228(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.FinalCode.asyncCallback13057436(runtimeScene, asyncObjectsList)));
 }
 }
 
